@@ -8,12 +8,11 @@ if condition:
 """
 
 """age=int(input("enter the age:"))
-if age>=18:
-    print("eligible for voting")
-else:
-    print("not eligible for voting")"""
+print("eligible for voting") if age>=18 else print("not eligible for voting")"""
 
-mark=int(input("enter the mark"))
+    
+
+"""mark=int(input("enter the mark"))
 if mark>=95:
     print("excellent")
 elif mark>=75:
@@ -21,4 +20,18 @@ elif mark>=75:
 elif mark>=50:
     print("You secured c grade")
 else:
-    print("keep practicing")
+    print("keep practicing")"""
+
+
+age=int(input("enter the age"))
+if age>=60:
+    c=input("do you have a membership card (yes/no):")
+    is_member =True if c=="yes" else False
+    if is_member:
+        print("congrats you got 30% dicount")
+    else:
+        print ("eligible for 10% discount")
+else:
+    print("not eligible ")
+
+
