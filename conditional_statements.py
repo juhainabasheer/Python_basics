@@ -23,7 +23,7 @@ else:
     print("keep practicing")"""
 
 
-age=int(input("enter the age"))
+"""age=int(input("enter the age"))
 if age>=60:
     c=input("do you have a membership card (yes/no):")
     is_member =True if c=="yes" else False
@@ -34,4 +34,10 @@ if age>=60:
 else:
     print("not eligible ")
 
-
+"""
+number={1:"one",2:"two",3:"three",4:"four",5:"five"}
+num=int(input("enter any digit between 1-5 :"))
+if num in number:
+    print(number[num])
+else:
+    print("error")
